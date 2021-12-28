@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+gunicorn==19.9.0
+uvloop
+httptools
+pickle-mixin
+pandas
+joblib
+shap==0.39.0
+matplotlib
+seaborn
+scipy
+scikit-learn==1.0.1
+category_encoders
+imblearn
+pydantic
