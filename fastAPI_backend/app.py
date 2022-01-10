@@ -62,10 +62,7 @@ def predict_bank_credit(data: BankCredit):
     data_df = pd.DataFrame.from_dict([data])
     data_df = data_df[features]
     prediction = final_model.predict(data_df)[0]
-    # if(prediction == 0):
-    #     prediction = "Crédit Accordé"
-    # else:
-    #     prediction = "Credit Refusé"
+    
     return {'prediction': str(prediction)}
 
 
